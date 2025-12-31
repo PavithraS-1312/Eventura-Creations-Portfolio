@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eventura Creations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* body {
+            background-color: #fbfcf8;
+        } */
+
+        /* HOME SECTION */
+        .home {
+            min-height: 100vh;
+            background-image: url("../images/home-banner.jpg");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+
+        }
+
+        /* DARK OVERLAY */
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.45);
+        }
+
+        /* HEADER */
+        .home-header {
+            position: relative;
+            text-align: center;
+            padding-top: 40px;
+            z-index: 1;
+        }
+
+        .company-name {
+            font-family: 'Great Vibes', cursive;
+            font-size: 52px;
+            color: #ffffff;
+        }
+
+        .tagline {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            color: #ffffff;
+        }
+
+        /* CENTER CONTENT */
+        .center-content {
+            position: relative;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+
+        .quote-box {
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            padding: 40px;
+            max-width: 750px;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .introduction {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.8;
+        }
+
+        /* BOTTOM BUTTONS */
+        .bottom-buttons {
+            position: absolute;
+            bottom: 40px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            z-index: 1;
+        }
+
+        .white-box-btn {
+            background: white;
+            color: #333;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-weight: 500;
+            border: 1px solid #ddd;
+            transition: all 0.3s ease;
+        }
+
+        .white-box-btn:hover {
+            background: #eee;
+        }
+
+        /* SERVICES SECTION */
+        .highlights {
+            padding: 60px 20px;
+            text-align: center;
+            background: #ffffff;
+        }
+
+        .highlights h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .highlights ul {
+            list-style: none;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .highlights li {
+            padding: 10px 0;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                Eventura Creations
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <section class="home">
+
+        <div class="overlay"></div>
+
+        <!-- TOP -->
+        <div class="home-header">
+            <h1 class="company-name">Eventura Creations</h1>
+            <p class="tagline">Creating Moments, Crafting Memories</p>
+        </div>
+
+        <!-- CENTER -->
+        <div class="center-content">
+            <div class="quote-box">
+                <p class="quote">
+                    “Turning your special occasions into unforgettable experiences.”
+                </p>
+                <p class="introduction">
+                    Eventura Creation is a professional event management agency specializing
+                    in weddings, corporate events, private celebrations, and customized
+                    experiences delivered with elegance and perfection.
+                </p>
+            </div>
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="bottom-buttons">
+            <a href="services.html" class="white-box-btn">Our Services</a>
+            <a href="contact.html" class="white-box-btn">Contact Us</a>
+        </div>
+
+    </section>
+
+    <!-- SERVICES -->
+    <section class="highlights" id="highlights">
+        <h2>Highlights of Services</h2>
+        <ul>
+            <li>Wedding & Engagement Planning</li>
+            <li>Corporate Events & Conferences</li>
+            <li>Birthday Parties & Private Celebrations</li>
+            <li>Cultural & Entertainment Events</li>
+            <li>Event Decoration & Styling</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+                <h3 class="footer-logo">Eventura Creations</h3>
+                <p>
+                    We design and manage elegant events with creativity,
+                    precision, and unforgettable experiences.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p>Chennai, Tamil Nadu, India</p>
+                <p>+91 98765 43210</p>
+                <p>eventuracreations@gmail.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Eventura Creations. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
